@@ -9,7 +9,7 @@ const MusicPlayer = () => {
   useEffect(() => {
     if (audioRef.current) {
       // Ajustamos el volumen aquí. 0.3 es el 30%.
-      audioRef.current.volume = 0.1;
+      audioRef.current.volume = 0.35;
     }
   }, []);
 

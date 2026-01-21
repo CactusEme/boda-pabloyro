@@ -32,7 +32,7 @@ function App() {
 
       {/* Imagen después de la cuenta regresiva */}
       <ScrollReveal>
-      <PhotoFrame src="/photo_4.jpeg" />
+      <PhotoFrame images={["/photo_5.jpeg"]} alt="Nosotros" />
       </ScrollReveal>
       
       {/* Mensaje de bienvenida */}
@@ -52,16 +52,16 @@ function App() {
           <EventCard 
             title="Civil y Discurso"
             time="16:00 hs"
-            location="Las Golondrinas 1738"
-            address="Barrio Bancario"
+            location="Salón del Reino"
+            address="Las Golondrinas 1738 - Barrio Bancario"
             mapLink="https://maps.app.goo.gl/TYMZQhhha1KsGyTQ8?g_st=aw" 
             icon={<BookOpenText size={44} strokeWidth={1} className="text-boda-oliva-oscuro" />}
           />
           <EventCard 
-            title="La Fiesta"
+            title="Fiesta"
             time="18:00 hs a 02:00 hs"
-            location="Salón Multiespacio Amnesia"
-            address="Av. 9 de Julio 1397, San Pedro de Jujuy"
+            location="Salón de Fiestas Turquesa"
+            address="Av. Suiza y Punta del Este - Barrio Morosini"
             mapLink="https://maps.app.goo.gl/7EBbbiJHgNZ9z6HK8?g_st=aw"
             icon={<Wine size={44} strokeWidth={1} className="text-boda-oliva-oscuro" />}
           />
@@ -73,7 +73,7 @@ function App() {
       <ScrollReveal>
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-6">
-          <PhotoFrame src="/photo_1.jpeg" alt="Nosotros" />
+          <PhotoFrame images={["/photo_4.jpeg", "/photo_6.jpeg"]} alt="Nosotros" />
           
           <div className="grid md:grid-cols-2 gap-12 items-start bg-white/50 backdrop-blur-md rounded-[50px] p-10 md:p-16 border border-white mt-12 shadow-sm">
             <DressCode />
@@ -89,7 +89,7 @@ function App() {
       <ScrollReveal>
       <section className="py-24 px-6 bg-white/30">
         <div className="max-w-4xl mx-auto text-center">
-          <PhotoFrame src="/photo_album_1.jpeg" alt="Momentos divertidos" />
+          <PhotoFrame images={["/photo_album_1.jpeg", "/photo_album_2.jpeg", "/photo_album_3.jpeg", "/photo_album_4.jpeg"]} alt="Momentos divertidos" />
           <div className="bg-white rounded-[50px] p-16 shadow-sm border border-boda-verde/20 mt-12">
             <PhotoAlbum />
           </div>
@@ -122,6 +122,9 @@ function App() {
             <p className="text leading-relaxed italic text-boda-texto/80 font-serif">
               "Para nosotros este día es muy especial y su organización también, te agradeceremos que puedas cumplir con tu asistencia si nos diste tu confirmación."
             </p>
+          </div>
+          <div className="mt-10 animate-fade-in-up uppercase tracking-[6px] mb-4 text font-semibold text-boda-oliva">
+            ¡Los esperamos!
           </div>
         </div>
       </section>

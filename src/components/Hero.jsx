@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { Truck, ChevronsDown } from 'lucide-react';
 const Hero = () => {
   const slides = [
-    { url: '/photo_1.jpeg', text: 'Nuestro viaje comienza' },
-    { url: '/photo_2.jpeg', text: 'Unidos por el amor' },
-    { url: '/photo_3.png', text: '¡Acompáñanos a celebrar!' }
+    { url: '/photo_1.jpeg', text: 'Nuestro viaje comienza aquí...' },
+    { url: '/photo_2.jpeg', text: 'Nuestro viaje comienza aquí...' },
+    { url: '/photo_3.png', text: 'Nuestro viaje comienza aquí...' }
   ];
 
   const [current, setCurrent] = useState(0);
@@ -45,16 +45,16 @@ const Hero = () => {
           Pablo & Rocio
         </h1>
         
-        {/* Icono del camión y Fecha */}
-        <div className="animate-fade-in-up [animation-delay:600ms]">
-          <Truck size={48} strokeWidth={1} className="mx-auto mb-4 animate-bounce text-boda-beige" />
-          <p className="uppercase tracking-[3px] font-medium text-boda-beige mb-6">15 de Febrero de 2026</p>
-        </div>
-
         {/* TEXTO 3: Frase */}
-        <p className="animate-fade-in-up [animation-delay:800ms] italic text-xl font-serif text-boda-beige/90">
+        <p className="animate-fade-in-up [animation-delay:800ms] italic text-xl leading-8 font-serif text-boda-beige/90">
           "{slides[current].text}"
         </p>
+
+        {/* Icono del camión y Fecha */}
+        <div className="animate-fade-in-up [animation-delay:600ms] mt-10">
+          <Truck size={48} strokeWidth={1} className="mx-auto mb-4 animate-bounce text-boda-beige" />
+          <p className="uppercase tracking-[3px] font-medium text-boda-beige mt-90 mb-6">15 de Febrero de 2026</p>
+        </div>
       </div>
 
       {/* Indicador de scroll */}
@@ -70,4 +70,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

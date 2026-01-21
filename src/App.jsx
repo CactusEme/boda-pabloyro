@@ -8,15 +8,19 @@ import PrimaryButton from './components/PrimaryButton';
 import MusicPlayer from './components/MusicPlayer';
 import DressCode from './components/DressCode';
 import { BookOpenText, Wine } from 'lucide-react';
+import ScrollReveal from './components/ScrollReveal';
 
 function App() {
   return (
     <main className="bg-boda-oliva text-boda-texto font-sans overflow-x-hidden transition-colors duration-500">
       
       <MusicPlayer />
+      <ScrollReveal>
       <Hero />
+      </ScrollReveal>
 
       {/* Sección Contador - Diseño Elegante y Centrado */}
+      <ScrollReveal>
       <section className="bg-white/40 backdrop-blur-sm py-16 border-y border-boda-oliva-oscuro/10">
         <h3 className="text-center text-boda-oliva-oscuro uppercase tracking-[4px] text-xs mb-4 font-semibold">
           Faltan tan solo...
@@ -24,18 +28,25 @@ function App() {
         {/* FECHA AJUSTADA: 15 de Febrero de 2026 */}
         <Countdown targetDate="2026-02-15T16:00:00" />
       </section>
+      </ScrollReveal>
 
       {/* Imagen después de la cuenta regresiva */}
+      <ScrollReveal>
       <PhotoFrame src="/photo_4.jpeg" />
-
+      </ScrollReveal>
+      
+      {/* Mensaje de bienvenida */}
+      <ScrollReveal>
       <section className="py-16 text-center px-6">
         <h2 className="font-serif text-4xl mb-6 text-boda-oliva-oscuro">¡Estás invitado!</h2>
         <p className="max-w-2xl mx-auto leading-relaxed text-lg opacity-90">
           Hay momentos en la vida que son únicos, y compartirlos con las personas que más queremos los hace inolvidables. Gracias por ser parte de nuestra historia.
         </p>
       </section>
+      </ScrollReveal>
 
       {/* Detalles de los Eventos - Iconos Minimalistas */}
+      <ScrollReveal>
       <section className="py-20 bg-boda-crema px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
           <EventCard 
@@ -56,8 +67,10 @@ function App() {
           />
         </div>
       </section>
+      </ScrollReveal>
 
       {/* Sección de Detalles: Vestimenta y Regalos */}
+      <ScrollReveal>
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-6">
           <PhotoFrame src="/photo_1.jpeg" alt="Nosotros" />
@@ -70,8 +83,10 @@ function App() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* Sección de Álbum */}
+      <ScrollReveal>
       <section className="py-24 px-6 bg-white/30">
         <div className="max-w-4xl mx-auto text-center">
           <PhotoFrame src="/photo_album_1.jpeg" alt="Momentos divertidos" />
@@ -80,8 +95,10 @@ function App() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
       
       {/* Sección de Confirmación Uniforme */}
+      <ScrollReveal>
       <section className="py-24 bg-white text-center px-6 border-t border-boda-oliva-oscuro/10">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-serif text-5xl mb-8 text-boda-oliva-oscuro">Confirmación</h2>
@@ -108,6 +125,7 @@ function App() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       <footer className="py-12 text-center text-[10px] tracking-[4px] opacity-40 text-boda-oliva-oscuro uppercase">
         HECHO CON AMOR • 2026

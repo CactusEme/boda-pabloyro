@@ -53,7 +53,7 @@ const Hero = () => {
         {/* Icono del camión y Fecha */}
         <div className="animate-fade-in-up [animation-delay:600ms] mt-10">
           <Truck size={48} strokeWidth={1} className="mx-auto mb-4 animate-bounce text-boda-beige" />
-          <p className="uppercase tracking-[3px] font-medium text-boda-beige mt-90 mb-6">15 de Febrero de 2026</p>
+          <p className="uppercase tracking-[3px] font-medium text-boda-beige mt-70 mb-6">15 de Febrero de 2026</p>
         </div>
       </div>
 

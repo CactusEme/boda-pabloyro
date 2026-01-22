@@ -12,7 +12,7 @@ const PhotoAlbum = () => {
       <h3 className="font-serif text-3xl mb-4 text-boda-verde">Álbum de Fotos Compartido</h3>
       
       <p className="mb-8 italic text-boda-texto max-w-md">
-        "Queremos vivir este día a través de sus ojos. ¡Ayúdanos a capturar cada momento subiendo tus fotos aquí!"
+        "Te invitamos a compartir en este álbum las fotos de recuerdo que desees y también aquellas que tomes durante nuestra boda."
       </p>
       
       <PrimaryButton 

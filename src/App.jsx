@@ -58,7 +58,7 @@ function App() {
             icon={<BookOpenText size={44} strokeWidth={1} className="text-boda-oliva-oscuro" />}
           />
           <EventCard 
-            title="Fiesta"
+            title="Celebración"
             time="18:00 hs a 02:00 hs"
             location="Salón de Fiestas Turquesa"
             address="Av. Suiza y Punta del Este - Barrio Morosini"

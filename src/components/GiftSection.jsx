@@ -13,7 +13,7 @@ const GiftSection = () => {
 
       <h3 className="font-serif text-2xl mb-2 text-boda-terracota">Regalos</h3>
       <p className="max-w-xs mx-auto text-sm mb-6 text-boda-texto">
-        Tu presencia es nuestro mejor regalo, pero si deseas realizarnos un presente, puedes hacerlo de esta forma:
+        Nuestro mejor regalo en este día tan especial es tu presencia, pero si deseas obsequiarnos algo, puedes consultarlo aquí.
       </p>
 
       <PrimaryButton 

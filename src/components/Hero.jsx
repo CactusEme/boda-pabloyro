@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Truck, ChevronsDown } from 'lucide-react';
+import '../index.css';
+
 const Hero = () => {
   const slides = [
     { url: '/photo_1.jpeg', text: 'Nuestro viaje comienza aquí...' },
@@ -41,19 +43,19 @@ const Hero = () => {
         </p>
         
         {/* TEXTO 2: Aparece un poquito después */}
-        <h1 className="animate-fade-in-up [animation-delay:400ms] text-6xl md:text-8xl font-serif mb-6 drop-shadow-lg">
+        <h1 className="animate-fade-in-up [animation-delay:400ms] text-6xl md:text-8xl font-eyesome mb-6 drop-shadow-lg">
           Pablo & Rocio
         </h1>
         
         {/* TEXTO 3: Frase */}
-        <p className="animate-fade-in-up [animation-delay:800ms] italic text-xl leading-8 font-serif text-boda-beige/90">
+        <p className="mt-20 animate-fade-in-up [animation-delay:800ms] italic text-xl leading-8 font-serif text-boda-beige/90">
           "{slides[current].text}"
         </p>
 
         {/* Icono del camión y Fecha */}
         <div className="animate-fade-in-up [animation-delay:600ms] mt-10">
           <Truck size={48} strokeWidth={1} className="mx-auto mb-4 animate-bounce text-boda-beige" />
-          <p className="uppercase tracking-[3px] font-medium text-boda-beige mt-70 mb-6">15 de Febrero de 2026</p>
+          <p className="uppercase tracking-[3px] font-medium text-boda-beige mt-60 mb-6">15 de Febrero de 2026</p>
         </div>
       </div>
 

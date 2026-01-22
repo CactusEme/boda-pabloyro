@@ -2,10 +2,19 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap');
 
+@font-face {
+  font-family: 'EyesomeScript';
+  src: url('./assets/fonts/Eyesome-Script.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-serif: "Playfair Display", serif;
   --font-sans: "Montserrat", sans-serif;
-  
+  --font-eyesome: "EyesomeScript", cursive;
+
   /* Nueva Paleta Verde Oliva */
   --color-boda-oliva: #D4D9BA;      /* Fondo principal (Oliva suave) */
   --color-boda-oliva-oscuro: #606C38; /* Para textos o acentos fuertes */

@@ -105,7 +105,7 @@ function App() {
           
           <div className="space-y-6 mb-12">
             <p className="text-xl leading-relaxed">
-              Es muy importante que confirmes tu asistencia, puedes hacerlo hasta el <span className="font-bold border-b-2 border-boda-verde/30 text-boda-oliva-oscuro">31 de Enero</span>.
+              Es muy importante que confirmes tu asistencia, puedes hacerlo hasta el <span className="font-bold border-b-2 border-boda-verde/30 text-boda-oliva-oscuro">10 de Febrero</span>.
             </p>
             <p className="text-sm text-boda-texto/70 italic max-w-md mx-auto">
               En caso de no recibir confirmación hasta esa fecha, entenderemos que no podrás acompañarnos.
